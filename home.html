@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="split-container">
+
+  <!-- ESQUERDA -->
+  <div class="left">
+
+    <h2>Olá, User! ⭐</h2>
+    <p>Que bom te ver por aqui!</p>
+
+    <h3>Estoque de Sangue</h3>
+
+    <div class="grid">
+      <div class="box alto">O+</div>
+      <div class="box baixo">O-</div>
+      <div class="box medio">A+</div>
+      <div class="box medio">A-</div>
+      <div class="box alto">B+</div>
+      <div class="box baixo">B-</div>
+      <div class="box alto">AB+</div>
+      <div class="box medio">AB-</div>
+    </div>
+
+    <button onclick="window.location.href='agendamento.html'">
+      Agendar Doação
+    </button>
+
+    <p class="obs">
+      Estoque pode variar conforme localização
+    </p>
+
+  </div>
+
+  <!-- DIREITA -->
+  <div class="right">
+
+    <h3>Encontre um hemocentro perto de você!</h3>
+
+    <input type="text" placeholder="Digite sua localização">
+
+    <iframe
+      src="https://www.google.com/maps?q=hemocentro&output=embed"
+      class="mapa">
+    </iframe>
+
+  </div>
+
+</div>
+
+</body>
+</html>
